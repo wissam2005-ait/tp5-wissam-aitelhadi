@@ -1,0 +1,14 @@
+{
+  "name": "queenbee-archi-dev",
+  "version": "2.0.0",
+  "description": "QueenBee TP5 Dev",
+  "type": "module",
+  "private": true,
+  "engines": {
+    "node": ">=20"
+  },
+  "scripts": {
+    "lint:archi": "node tools/check-architecture.js",
+    "tp5": "node tools/run-specs.js seance5-comportement-ddd/queenbee-alerte"
+  }
+}
